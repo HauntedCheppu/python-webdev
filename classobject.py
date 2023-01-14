@@ -26,3 +26,20 @@ print(demo_p1.show())
 print(demo_p2.age)
 
 print(demo_p2.get_school())
+
+
+#default customer
+
+print("Default customer name")
+class default_p( ):
+    """docstring for default_p."""
+    def __init__(self,   ):
+        self.name = "ram"
+        self.age = 27
+
+    def return_customer(self):
+        print( "name:", self.name, "\t age:", self.age)
+
+
+default_c = default_p()
+default_c.return_customer()
